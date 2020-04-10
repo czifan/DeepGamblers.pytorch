@@ -20,7 +20,7 @@ python main.py
 Note: You can modify some parameters in "configs/config.py" to get your own specific models.
 
 ## Results
-![result1](pic/pic1.png)
+![result1](pic/pic.png)
 ## Citation
 ```
 @article{ZiyinDeep,
