@@ -21,7 +21,6 @@ Note: You can modify some parameters in "configs/config.py" to get your own spec
 
 ## Results
 ![result1](pic/pic1.png)
-![result2](pic/pic2.png)
 ## Citation
 ```
 @article{ZiyinDeep,
