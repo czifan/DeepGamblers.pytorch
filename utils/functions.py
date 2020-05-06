@@ -35,7 +35,7 @@ def train(config, epoch, model, train_loader, criterion, optimizer, logger, rewa
                 #print(weight_item[ind], (-doubling_rate[ind]))
                 loss += (-doubling_rate[ind]) * weight_item[ind] / doubling_rate.shape[0]
             if config.hard_mining:
-                temp = reservation / reservation.sum() - reservation.mean()
+                temp = reservation / reservation.sum() - reservation.mean() / reservation.sum()
                 #temp = (temp - temp.mean()) / temp.std() * 0.3
                 for item_i, temp_i in zip(item, temp):
                     weight[item_i.item()] = 1 + temp_i.item()
